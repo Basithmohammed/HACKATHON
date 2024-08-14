@@ -311,10 +311,10 @@ h6 {
   background: none;
 }
 
-.nav-menu li.buy-tickets:hover a:before,
+/* .nav-menu li.buy-tickets:hover a:before,
 .nav-menu li.buy-tickets.menu-active a:before {
   visibility: hidden;
-}
+} */
 
 .nav-menu ul {
   margin: 4px 0 0 0;
@@ -699,7 +699,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
-  
+  display: flex;
+  justify-content: center;  
 }
 
 #themes .Themes .details {
@@ -854,7 +855,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
-  padding: 45px;
+  /* padding: 45px; */
+  display: flex;
+  justify-content: center;
 }
 
 #themes .prize .details {
@@ -1110,7 +1113,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #showFormBtn{
   
-  margin-left: 550px;
+  /* margin-left: 550px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
   
 }
 
